@@ -466,7 +466,7 @@
             "vm_name": "magma-alpine36-libvirt",
             "output_directory": "output/magma-alpine36-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "60s",
             "boot_command": [
                 "<enter><wait10>",
@@ -507,7 +507,7 @@
             "vm_name": "magma-centos6-libvirt",
             "output_directory": "output/magma-centos6-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
                 "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/magma.centos6.vagrant.ks<enter><wait>"
@@ -539,7 +539,7 @@
             "vm_name": "magma-centos7-libvirt",
             "output_directory": "output/magma-centos7-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
                 "<tab>text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/magma.centos7.vagrant.ks<enter><wait>"
@@ -571,7 +571,7 @@
             "vm_name": "magma-arch-libvirt",
             "output_directory": "output/magma-arch-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "1s",
             "boot_command": [
                 "<tab><wait><tab><wait><tab><wait><tab><wait><tab><wait>",
@@ -621,7 +621,7 @@
             "vm_name": "magma-fedora27-libvirt",
             "output_directory": "output/magma-fedora27-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
                 "<tab> ",
@@ -657,7 +657,7 @@
             "vm_name": "magma-debian8-libvirt",
             "output_directory": "output/magma-debian8-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "10s",
             "boot_command": [
                 "<esc><wait><esc><wait><esc><wait><esc><wait><esc><wait><esc><wait>",
@@ -701,7 +701,7 @@
             "vm_name": "magma-ubuntu1604-libvirt",
             "output_directory": "output/magma-ubuntu1604-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
                 "<enter><wait>",
@@ -749,7 +749,7 @@
             "vm_name": "magma-ubuntu1610-libvirt",
             "output_directory": "output/magma-ubuntu1610-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
                 "<esc><wait>",
@@ -789,7 +789,7 @@
             "vm_name": "magma-ubuntu1704-libvirt",
             "output_directory": "output/magma-ubuntu1704-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
                 "<esc><wait>",
@@ -829,7 +829,7 @@
             "vm_name": "magma-gentoo-libvirt",
             "output_directory": "output/magma-gentoo-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "5s",
             "boot_command": [
                 "gentoo-nofb<enter>",
@@ -871,7 +871,7 @@
             "vm_name": "magma-freebsd11-libvirt",
             "output_directory": "output/magma-freebsd11-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "1s",
             "boot_command": [
                 "<esc><wait><esc><wait><esc><wait><esc><wait>",
@@ -917,7 +917,7 @@
             "vm_name": "magma-openbsd6-libvirt",
             "output_directory": "output/magma-openbsd6-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "40s",
             "boot_command": [
                 "S<enter><wait>",
