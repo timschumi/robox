@@ -1865,7 +1865,6 @@
       "name": "generic-oracle7-libvirt",
       "vm_name": "generic-oracle7-libvirt",
       "output_directory": "output/generic-oracle7-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -1897,7 +1896,6 @@
       "name": "generic-opensuse42-libvirt",
       "vm_name": "generic-opensuse42-libvirt",
       "output_directory": "output/generic-opensuse42-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -1932,7 +1930,6 @@
       "name": "generic-alpine35-libvirt",
       "vm_name": "generic-alpine35-libvirt",
       "output_directory": "output/generic-alpine35-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -1973,7 +1970,6 @@
       "name": "generic-alpine36-libvirt",
       "vm_name": "generic-alpine36-libvirt",
       "output_directory": "output/generic-alpine36-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -2014,7 +2010,6 @@
       "name": "generic-alpine37-libvirt",
       "vm_name": "generic-alpine37-libvirt",
       "output_directory": "output/generic-alpine37-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -2055,7 +2050,6 @@
       "name": "generic-alpine38-libvirt",
       "vm_name": "generic-alpine38-libvirt",
       "output_directory": "output/generic-alpine38-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -2096,7 +2090,6 @@
       "name": "generic-centos6-libvirt",
       "vm_name": "generic-centos6-libvirt",
       "output_directory": "output/generic-centos6-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2128,7 +2121,6 @@
       "name": "generic-centos7-libvirt",
       "vm_name": "generic-centos7-libvirt",
       "output_directory": "output/generic-centos7-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2160,7 +2152,6 @@
       "name": "generic-rhel7-libvirt",
       "vm_name": "generic-rhel7-libvirt",
       "output_directory": "output/generic-rhel7-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2192,7 +2183,6 @@
       "name": "generic-arch-libvirt",
       "vm_name": "generic-arch-libvirt",
       "output_directory": "output/generic-arch-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -2242,7 +2232,6 @@
       "name": "generic-fedora25-libvirt",
       "vm_name": "generic-fedora25-libvirt",
       "output_directory": "output/generic-fedora25-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2278,7 +2267,6 @@
       "name": "generic-fedora26-libvirt",
       "vm_name": "generic-fedora26-libvirt",
       "output_directory": "output/generic-fedora26-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2314,7 +2302,6 @@
       "name": "generic-fedora27-libvirt",
       "vm_name": "generic-fedora27-libvirt",
       "output_directory": "output/generic-fedora27-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2350,7 +2337,6 @@
       "name": "generic-fedora28-libvirt",
       "vm_name": "generic-fedora28-libvirt",
       "output_directory": "output/generic-fedora28-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2386,7 +2372,6 @@
       "name": "generic-fedora29-libvirt",
       "vm_name": "generic-fedora29-libvirt",
       "output_directory": "output/generic-fedora29-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2422,7 +2407,6 @@
       "name": "generic-debian8-libvirt",
       "vm_name": "generic-debian8-libvirt",
       "output_directory": "output/generic-debian8-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "10s",
       "boot_command": [
@@ -2466,7 +2450,6 @@
       "name": "generic-debian9-libvirt",
       "vm_name": "generic-debian9-libvirt",
       "output_directory": "output/generic-debian9-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "10s",
       "boot_command": [
@@ -2510,7 +2493,6 @@
       "name": "generic-ubuntu1604-libvirt",
       "vm_name": "generic-ubuntu1604-libvirt",
       "output_directory": "output/generic-ubuntu1604-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2558,7 +2540,6 @@
       "name": "generic-ubuntu1610-libvirt",
       "vm_name": "generic-ubuntu1610-libvirt",
       "output_directory": "output/generic-ubuntu1610-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2598,7 +2579,6 @@
       "name": "generic-ubuntu1704-libvirt",
       "vm_name": "generic-ubuntu1704-libvirt",
       "output_directory": "output/generic-ubuntu1704-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2638,7 +2618,6 @@
       "name": "generic-ubuntu1710-libvirt",
       "vm_name": "generic-ubuntu1710-libvirt",
       "output_directory": "output/generic-ubuntu1710-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2678,7 +2657,6 @@
       "name": "generic-ubuntu1804-libvirt",
       "vm_name": "generic-ubuntu1804-libvirt",
       "output_directory": "output/generic-ubuntu1804-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -2730,7 +2708,6 @@
       "name": "generic-ubuntu1810-libvirt",
       "vm_name": "generic-ubuntu1810-libvirt",
       "output_directory": "output/generic-ubuntu1810-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -2782,7 +2759,6 @@
       "name": "generic-gentoo-libvirt",
       "vm_name": "generic-gentoo-libvirt",
       "output_directory": "output/generic-gentoo-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "5s",
       "boot_command": [
@@ -2824,7 +2800,6 @@
       "name": "generic-freebsd11-libvirt",
       "vm_name": "generic-freebsd11-libvirt",
       "output_directory": "output/generic-freebsd11-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -2870,7 +2845,6 @@
       "name": "generic-openbsd6-libvirt",
       "vm_name": "generic-openbsd6-libvirt",
       "output_directory": "output/generic-openbsd6-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "40s",
       "boot_command": [
@@ -2906,7 +2880,6 @@
       "name": "generic-freebsd12-libvirt",
       "vm_name": "generic-freebsd12-libvirt",
       "output_directory": "output/generic-freebsd12-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -2952,7 +2925,6 @@
       "name": "generic-rhel6-libvirt",
       "vm_name": "generic-rhel6-libvirt",
       "output_directory": "output/generic-rhel6-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -2984,7 +2956,6 @@
       "name": "generic-rhel8-libvirt",
       "vm_name": "generic-rhel8-libvirt",
       "output_directory": "output/generic-rhel8-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -3016,7 +2987,6 @@
       "name": "generic-hardenedbsd11-libvirt",
       "vm_name": "generic-hardenedbsd11-libvirt",
       "output_directory": "output/generic-hardenedbsd11-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -3062,7 +3032,6 @@
       "name": "generic-dragonflybsd5-libvirt",
       "vm_name": "generic-dragonflybsd5-libvirt",
       "output_directory": "output/generic-dragonflybsd5-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -3121,7 +3090,6 @@
       "name": "generic-netbsd8-libvirt",
       "vm_name": "generic-netbsd8-libvirt",
       "output_directory": "output/generic-netbsd8-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "40s",
       "boot_command": [
@@ -3197,7 +3165,6 @@
       "name": "generic-hardenedbsd12-libvirt",
       "vm_name": "generic-hardenedbsd12-libvirt",
       "output_directory": "output/generic-hardenedbsd12-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -3243,7 +3210,6 @@
       "name": "generic-alpine39-libvirt",
       "vm_name": "generic-alpine39-libvirt",
       "output_directory": "output/generic-alpine39-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -3285,7 +3251,6 @@
       "name": "generic-debian10-libvirt",
       "vm_name": "generic-debian10-libvirt",
       "output_directory": "output/generic-debian10-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "10s",
       "boot_command": [
@@ -3329,7 +3294,6 @@
       "name": "generic-ubuntu1904-libvirt",
       "vm_name": "generic-ubuntu1904-libvirt",
       "output_directory": "output/generic-ubuntu1904-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -3381,7 +3345,6 @@
       "name": "generic-fedora30-libvirt",
       "vm_name": "generic-fedora30-libvirt",
       "output_directory": "output/generic-fedora30-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -3417,7 +3380,6 @@
       "name": "generic-oracle8-libvirt",
       "vm_name": "generic-oracle8-libvirt",
       "output_directory": "output/generic-oracle8-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -3449,7 +3411,6 @@
       "name": "generic-alpine310-libvirt",
       "vm_name": "generic-alpine310-libvirt",
       "output_directory": "output/generic-alpine310-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -3491,7 +3452,6 @@
       "name": "generic-opensuse15-libvirt",
       "vm_name": "generic-opensuse15-libvirt",
       "output_directory": "output/generic-opensuse15-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -3526,7 +3486,6 @@
       "name": "generic-centos8-libvirt",
       "vm_name": "generic-centos8-libvirt",
       "output_directory": "output/generic-centos8-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -3558,7 +3517,6 @@
       "name": "generic-fedora31-libvirt",
       "vm_name": "generic-fedora31-libvirt",
       "output_directory": "output/generic-fedora31-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -3594,7 +3552,6 @@
       "name": "generic-ubuntu1910-libvirt",
       "vm_name": "generic-ubuntu1910-libvirt",
       "output_directory": "output/generic-ubuntu1910-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -3646,7 +3603,6 @@
       "name": "generic-alpine311-libvirt",
       "vm_name": "generic-alpine311-libvirt",
       "output_directory": "output/generic-alpine311-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -3688,7 +3644,6 @@
       "name": "generic-ubuntu2004-libvirt",
       "vm_name": "generic-ubuntu2004-libvirt",
       "output_directory": "output/generic-ubuntu2004-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "1s",
       "boot_command": [
@@ -3740,7 +3695,6 @@
       "name": "generic-fedora32-libvirt",
       "vm_name": "generic-fedora32-libvirt",
       "output_directory": "output/generic-fedora32-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -3775,7 +3729,6 @@
       "name": "generic-netbsd9-libvirt",
       "vm_name": "generic-netbsd9-libvirt",
       "output_directory": "output/generic-netbsd9-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "40s",
       "boot_command": [
@@ -3848,7 +3801,6 @@
       "name": "generic-alpine312-libvirt",
       "vm_name": "generic-alpine312-libvirt",
       "output_directory": "output/generic-alpine312-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [
@@ -3890,7 +3842,6 @@
       "name": "generic-devuan1-libvirt",
       "vm_name": "generic-devuan1-libvirt",
       "output_directory": "output/generic-devuan1-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "10s",
       "boot_command": [
@@ -3934,7 +3885,6 @@
       "name": "generic-devuan2-libvirt",
       "vm_name": "generic-devuan2-libvirt",
       "output_directory": "output/generic-devuan2-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "10s",
       "boot_command": [
@@ -3978,7 +3928,6 @@
       "name": "generic-devuan3-libvirt",
       "vm_name": "generic-devuan3-libvirt",
       "output_directory": "output/generic-devuan3-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "10s",
       "boot_command": [
@@ -4022,7 +3971,6 @@
       "name": "generic-ubuntu2010-libvirt",
       "vm_name": "generic-ubuntu2010-libvirt",
       "output_directory": "output/generic-ubuntu2010-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "10s",
       "boot_command": [
@@ -4070,7 +4018,6 @@
       "name": "generic-fedora33-libvirt",
       "vm_name": "generic-fedora33-libvirt",
       "output_directory": "output/generic-fedora33-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "20s",
       "boot_command": [
@@ -4105,7 +4052,6 @@
       "name": "generic-alpine313-libvirt",
       "vm_name": "generic-alpine313-libvirt",
       "output_directory": "output/generic-alpine313-libvirt",
-      "accelerator": "kvm",
       "qemu_binary": "qemu-system-x86_64",
       "boot_wait": "60s",
       "boot_command": [

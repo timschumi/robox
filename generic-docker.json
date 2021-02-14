@@ -264,7 +264,6 @@
             "name": "generic-centos6-docker",
             "vm_name": "generic-centos6-docker",
             "output_directory": "output/generic-centos6-docker",
-            "accelerator": "kvm",
             "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
@@ -295,7 +294,6 @@
             "name": "generic-centos7-docker",
             "vm_name": "generic-centos7-docker",
             "output_directory": "output/generic-centos7-docker",
-            "accelerator": "kvm",
             "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
@@ -326,7 +324,6 @@
             "name": "generic-centos8-docker",
             "vm_name": "generic-centos8-docker",
             "output_directory": "output/generic-centos8-docker",
-            "accelerator": "kvm",
             "qemu_binary": "qemu-system-x86_64",
             "boot_wait": "20s",
             "boot_command": [
@@ -357,7 +354,6 @@
           "name": "generic-oracle7-docker",
           "vm_name": "generic-oracle7-docker",
           "output_directory": "output/generic-oracle7-docker",
-          "accelerator": "kvm",
           "qemu_binary": "qemu-system-x86_64",
           "boot_wait": "20s",
           "boot_command": [
@@ -389,7 +385,6 @@
           "name": "generic-oracle8-docker",
           "vm_name": "generic-oracle8-docker",
           "output_directory": "output/generic-oracle8-docker",
-          "accelerator": "kvm",
           "qemu_binary": "qemu-system-x86_64",
           "boot_wait": "20s",
           "boot_command": [
@@ -420,7 +415,6 @@
           "name": "generic-rhel6-docker",
           "vm_name": "generic-rhel6-docker",
           "output_directory": "output/generic-rhel6-docker",
-          "accelerator": "kvm",
           "qemu_binary": "qemu-system-x86_64",
           "boot_wait": "20s",
           "boot_command": [
@@ -451,7 +445,6 @@
           "name": "generic-rhel7-docker",
           "vm_name": "generic-rhel7-docker",
           "output_directory": "output/generic-rhel7-docker",
-          "accelerator": "kvm",
           "qemu_binary": "qemu-system-x86_64",
           "boot_wait": "20s",
           "boot_command": [
@@ -482,7 +475,6 @@
           "name": "generic-rhel8-docker",
           "vm_name": "generic-rhel8-docker",
           "output_directory": "output/generic-rhel8-docker",
-          "accelerator": "kvm",
           "qemu_binary": "qemu-system-x86_64",
           "boot_wait": "20s",
           "boot_command": [
